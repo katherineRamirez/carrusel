@@ -8,36 +8,42 @@ body{
 h1{
   color: #01DFA5;
 }
+/* Tamaño de las imagenes */
 img{
-	width: 80%;
-	height: 60vh;
+  width: 80%;
+  height: 60vh;
 }
+/* Borde de las imagenes */
 .images{
   border: 1.2em solid white;
   border-radius: 1em;
 }
+/* Quitando los estilos de las listas */
 ul,ol{
-	list-style: none;
+  list-style: none;
 }
-
+/* Estilos de la flecha izquierda */
 .arrow-left{
-	position: absolute;
-	font-size: 2em;
-	left: 10em;
-	top: 15.5em;
-	color: #585858;
+  position: absolute;
+  font-size: 2em;
+  left: 10em;
+  top: 15.5em;
+  color: #585858;
   cursor: pointer;
 }
+/* Estilos de la paginación */
 .pagination{
 	position: absolute;
 	left: 23em;
 }
+/* Estilos de la lista de la paginación */
 .pagination li{
 	font-size: 2em;
 	color: #585858;
 	cursor: pointer;
 	padding-left: 0.60em;
 }
+/* Efecto cambio de color de las flechas */
 .arrow-left:hover .arrow-right:hover{
 	color: #01DFA5;
 }
